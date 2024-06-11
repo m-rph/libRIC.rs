@@ -1,0 +1,8 @@
+[package]
+name = "libric"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+log = { version = "0.4.21", features = ["serde", "kv", "std", "kv_serde", "kv_std"] }
+serde = "1.0.203"
